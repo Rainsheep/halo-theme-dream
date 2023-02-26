@@ -159,6 +159,7 @@
     DreamConfig["meilisearch_url"] = '${meilisearch_url!}';
     DreamConfig["meilisearch_key"] = '${meilisearch_key!}';
     DreamConfig["meilisearch_index_name"] = '${meilisearch_index_name!}';
+    DreamConfig["meilisearch_hits_count"] = '${settings.meilisearch_hits_count!8}';
   }
   /** 配置主题模式 */
   DreamConfig["default_theme"] = '${settings.default_theme!'light'}';

@@ -359,7 +359,8 @@ const commonContext = {
         instantsearch.widgets.searchBox({
           container: "#searchbox"
         }),
-        instantsearch.widgets.configure({hitsPerPage: 8}),
+        instantsearch.widgets.configure(
+            {hitsPerPage: DreamConfig.meilisearch_hits_count}),
         instantsearch.widgets.hits({
           container: "#hits",
           templates: {

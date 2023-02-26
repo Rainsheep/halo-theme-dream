@@ -1440,6 +1440,13 @@ meilisearch:
           label: 开启
         - value: false
           label: 关闭
+    meilisearch_hits_count:
+      name: meilisearch_hits_count
+      label: 美丽搜索数量
+      type: text
+      default: '8'
+      placeholder: '美丽搜索数量'
+      description: '美丽搜索数量'
 live2d:
   label: 看板娘
   items:
