@@ -1426,6 +1426,20 @@ page_config:
           label: 开启
         - value: false
           label: 关闭
+meilisearch:
+  label: 美丽搜索
+  items:
+    enable_meilisearch:
+      name: meilisearch
+      label: 启用美丽搜索
+      type: switch
+      data-type: bool
+      default: false
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
 live2d:
   label: 看板娘
   items:
